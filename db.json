@@ -4,5 +4,23 @@
             "imgBanner": "./public/imagens/Img-Banner.png",
             "titulo": "Uma viagem através dos aromas e sabores de nossa culinária."
         }
+    ],
+    "menu": [
+        {
+            "imagemRisoto": "./public/imagens/risoto-menu.svg",
+            "nomePratoRisoto": "Risoto",
+            "descricaoRisoto": "Saboreie nosso risoto, onde arroz cremoso encontra harmonia perfeita em cada garfada. Um deleite para os sentidos,"
+        },
+        {
+            "imagemSalada": "./public/imagens/salada-menu.svg",
+            "nomePratoSalada": "Salada Refrescante",
+            "descricaoSalada": "Refresque seu paladar com a nossa deliciosa salada fresca, uma explosão de cores e sabores cuidadosamente combinados."
+        },
+        {
+            "imagemArroz": "./public/imagens/arroz-menu.svg",
+            "nomePratoArroz": "Arroz com Ovo",
+            "descricaoArroz": "Saboreie nosso simples e reconfortante arroz com ovo, uma combinação clássica que traz conforto em cada garfada."
+        }
+
     ]
 }

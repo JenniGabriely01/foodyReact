@@ -55,7 +55,44 @@ main{
 }
 
 .texto-menu p{
-    width: 40%;
-    font-family: "Inter", sans-serif;
-    
+    width: 35%;
+    font-family: "DM Serif Text", serif;
+    font-size: 1.3vw;
+    line-height: 32px;
+}
+
+.pratos-menu{
+    margin-top: 60px;
+}
+
+.prato{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.prato h2{
+    font-family: "Meow Script", cursive;
+    font-size: 2.8vw;
+    margin-bottom: 25px;
+}
+
+.prato p{
+    font-family: "DM Serif Text", serif;
+    font-size: 1.5vw;
+    /* width: 65%; */
+    margin-bottom: 25px;
+}
+
+
+.text-cardapio button{
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 13px 28px;
+    font-size: 1.3vw;
+    transition: 0.3s;
+}
+
+.text-cardapio button:hover{
+    border: 3px solid #fff; 
 }
