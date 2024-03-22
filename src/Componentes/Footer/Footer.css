@@ -32,3 +32,18 @@
     margin-bottom: 10px;
     font-size: 1.1vw;
 }
+
+.copyright{
+    width: 100%;
+    text-align: center;
+    background-color: #9c1b1b;
+    font-family: Inter, sans-serif;
+    font-weight: 200;
+    padding: 1.1vw 0;
+    color: #fff;
+}
+
+span {
+    font-weight: 300;
+    color: #ffffffbd;
+}

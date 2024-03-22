@@ -1,0 +1,61 @@
+.Banner-inicial{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    margin: 0 auto;
+    max-width: 90%;
+    font-family: "DM Serif Text", serif;
+}
+
+.textos-home{
+    width: 95%;
+}
+
+.textos-home h1{
+    font-size: 4vw;
+    margin-bottom: 50px;
+}
+
+.textos-home button{
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 13px 24px;
+    font-size: 1.6vw;
+    transition: 0.3s;
+}
+
+.textos-home button:hover{
+    border: 3px solid #fff; 
+}
+
+.img-banner img{
+    width: 1100px;
+    z-index: 1;
+}
+
+main{
+    color: #fff;
+    width: 1440px;
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+.texto-menu{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.texto-menu h2{
+    width: 40%;
+    font-family: "Meow Script", cursive;
+    font-size: 4vw;
+}
+
+.texto-menu p{
+    width: 40%;
+    font-family: "Inter", sans-serif;
+    
+}
