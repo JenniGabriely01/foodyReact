@@ -1,0 +1,50 @@
+:root{
+    --branco: #fff;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px;
+    margin: 20px auto;
+    font-family: "Inter", sans-serif;
+    max-width: 90%;
+}
+
+.nav,
+.icones-esquerda{
+    display: flex;
+    gap: 46px;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+}
+
+.nav a{
+    text-decoration: none;
+    color: var(--branco);
+    font-weight: 200;
+    font-size: 1.1vw;
+}
+
+.icones-esquerda img{
+    cursor: pointer;
+}
+
+.icones-esquerda button{
+    color: #fff;
+    background-color: #2D2C31;
+    border-radius: 15px;
+    border: 0;
+    padding: 7px 32px;
+    font-weight: 100;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.icones-esquerda button:hover{
+    background-color: #1F1D25;
+}

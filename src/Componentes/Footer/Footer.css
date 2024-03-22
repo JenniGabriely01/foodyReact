@@ -1,0 +1,34 @@
+:root{
+    --branco: #fff;
+}
+
+.footer{
+    color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    margin: 20px auto;
+    align-items: center;
+    max-width: 90%;
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+}
+
+.conteudo-direita img{
+    margin-bottom: 16px;
+}
+
+.conteudo-direita p{
+    margin-bottom: 18px;
+    font-size: 1.1vw;
+}
+
+.infos{
+    text-align: right;
+    font-weight: 200;
+}
+
+.infos p{
+    margin-bottom: 10px;
+    font-size: 1.1vw;
+}
