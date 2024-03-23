@@ -1,0 +1,46 @@
+:root{
+    --branco: #fff;
+}
+
+/* .centralizando{
+    text-align: center;
+} */
+
+.conteudo{
+    width: 1440px;
+    margin: 40px auto;
+    max-width: 90%;
+}
+
+.conteudo h2{
+    color: var(--branco);
+    font-family: "Meow Script", cursive;
+    font-size: 4vw;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+}
+
+.texto-conteudo{
+    position: absolute;
+    top: 50%;
+    left: 39%;
+    padding: 7vw 5vw;
+    width: 30vw;
+    background-color: rgba(211, 205, 205, 1);
+    border-radius: 5px;
+}
+
+.texto-conteudo h3 {
+    font-size: 1.9vw;
+    font-weight: 800;
+    font-family: "DM Serif Text", serif;
+    margin-bottom: 27px;
+}
+
+.texto-conteudo p{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    line-height: 23px;
+    font-size: 1.2vw;
+}

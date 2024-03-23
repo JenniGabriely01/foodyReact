@@ -23,11 +23,11 @@
     border: 1px solid #fff;
     padding: 13px 24px;
     font-size: 1.6vw;
-    transition: 0.3s;
 }
 
 .textos-home button:hover{
     border: 3px solid #fff; 
+    transition: 0.4s;
 }
 
 .img-banner img{
@@ -90,9 +90,9 @@ main{
     border: 1px solid #fff;
     padding: 13px 28px;
     font-size: 1.3vw;
-    transition: 0.3s;
 }
 
 .text-cardapio button:hover{
-    border: 3px solid #fff; 
+    border: 3px solid #fff;
+    transition: 0.4s;
 }

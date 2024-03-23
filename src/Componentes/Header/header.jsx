@@ -13,7 +13,7 @@ export function Header() {
 
                     <ul>
                         <li>
-                            <a href="">Home</a>
+                            <a href="/">Home</a>
                         </li>
                     </ul>
 
@@ -31,7 +31,7 @@ export function Header() {
 
                     <ul>
                         <li>
-                            <a href="">Sobre nós</a>
+                            <a href="/SobreNos">Sobre nós</a>
                         </li>
                     </ul>
 
