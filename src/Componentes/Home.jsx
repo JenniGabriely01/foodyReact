@@ -4,6 +4,7 @@ import './Home.css'
 export function Home() {
     const [infoBanner, setInfoBanner] = useState([]);
     const [menu, setMenu] = useState([]);
+    const [rotationAngle, setRotationAngle] = useState(0);
 
     useEffect(() => {
         // Requisição para o endpoint do banner
@@ -17,7 +18,27 @@ export function Home() {
             .then((response) => response.json())
             .then((data) => setMenu(data))
             .catch((error) => console.error('Erro ao carregar o menu:', error));
+
+
+        // Função para atualizar o ângulo de rotação com base na posição de rolagem
+        const handleScroll = () => {
+            const scrollPosition = window.scrollY;
+            const newRotationAngle = scrollPosition / 12; 
+            setRotationAngle(newRotationAngle);
+        };
+
+        // Adiciona um ouvinte de evento de rolagem quando o componente é montado
+        window.addEventListener('scroll', handleScroll);
+
+        // Remove o ouvinte de evento de rolagem quando o componente é desmontado
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+
     }, []);
+
+
+
 
     console.log(infoBanner);
     console.log(menu);
@@ -57,7 +78,7 @@ export function Home() {
                             {/* Renderizar o prato de risoto */}
                             <div className="prato">
                                 <div className="imagem-menu">
-                                    <img src={menu[0]?.imagemRisoto} alt="risoto" />
+                                    <img src={menu[0]?.imagemRisoto} alt="risoto" style={{ transform: `rotate(${rotationAngle}deg)` }}/>
                                 </div>
                                 <div className="text-cardapio">
                                     <h2>{menu[0]?.nomePratoRisoto}</h2>
@@ -72,14 +93,14 @@ export function Home() {
                                     <p>{menu[1]?.descricaoSalada}</p>
                                 </div>
                                 <div className="imagem-menu">
-                                    <img src={menu[1]?.imagemSalada} alt="salada" />
+                                    <img src={menu[1]?.imagemSalada} alt="salada" style={{ transform: `rotate(${rotationAngle}deg)` }}/>
                                 </div>
                             </div>
 
                             {/* Renderizar o prato de arroz */}
                             <div className="prato">
                                 <div className="imagem-menu">
-                                    <img src={menu[2]?.imagemArroz} alt="arroz" />
+                                    <img src={menu[2]?.imagemArroz} alt="arroz" style={{ transform: `rotate(${rotationAngle}deg)` }}/>
                                 </div>
                                 <div className="text-cardapio">
                                     <h2>{menu[2]?.nomePratoArroz}</h2>

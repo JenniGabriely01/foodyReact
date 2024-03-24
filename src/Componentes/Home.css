@@ -1,5 +1,13 @@
+:root{
+    --branco: #fff;
+}  
+
+body{
+    overflow-x: hidden;
+}
+
 .Banner-inicial{
-    color: #fff;
+    color: var(--branco);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,13 +28,13 @@
 
 .textos-home button{
     background: transparent;
-    border: 1px solid #fff;
+    border: 1px solid var(--branco);
     padding: 13px 24px;
     font-size: 1.6vw;
 }
 
 .textos-home button:hover{
-    border: 3px solid #fff; 
+    border: 3px solid var(--branco); 
     transition: 0.4s;
 }
 
@@ -39,7 +47,7 @@ main{
     color: #fff;
     width: 1440px;
     margin: 0 auto;
-    max-width: 90%;
+    max-width: 85%;
 }
 
 .texto-menu{
@@ -84,6 +92,9 @@ main{
     margin-bottom: 25px;
 }
 
+.imagem-menu{
+    width: 90%;
+}
 
 .text-cardapio button{
     background: transparent;
@@ -93,6 +104,6 @@ main{
 }
 
 .text-cardapio button:hover{
-    border: 3px solid #fff;
+    border: 3px solid var(--branco);
     transition: 0.4s;
 }
