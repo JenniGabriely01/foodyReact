@@ -1,0 +1,40 @@
+:root{
+    --branco: #fff;
+}
+
+.Conteudo-Contato{
+    width: 1440px;
+    margin: 20px auto;
+    max-width: 90%;
+    color: var(--branco);
+}
+
+.lojas{
+    display: flex;
+    text-align: left;
+}
+
+.conteudoLoja{
+    border: 1px solid;
+    border-radius: 0 33px;
+    padding: 2vw;
+    width: 25%;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.text{
+    margin-left: 20px;
+}
+
+.text h3{
+    font-size: 1.3vw;
+    font-family: "DM Serif Text", serif;
+    margin-bottom: 4px;
+}
+
+.text p{
+    font-family: "DM Serif Text", serif;
+    font-size: 1vw;
+}
