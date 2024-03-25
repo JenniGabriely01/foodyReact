@@ -20,13 +20,13 @@ export function Header() {
 
                     <ul>
                         <li>
-                            <a href="">Servicos</a>
+                            <a href="/Servicos">Servicos</a>
                         </li>
                     </ul>
 
                     <ul>
                         <li>
-                            <a href="">Contato</a>
+                            <a href="/Contato">Contato</a>
                         </li>
                     </ul>
 
@@ -42,7 +42,7 @@ export function Header() {
                 <div className="icones-esquerda">
                     <img src="./icones/pesq.svg" alt="icone Pesquisa" />
                     <img src="./icones/icone-notificacao.svg" alt="icone Pesquisa" />
-                    <button>Login</button>
+                    <button href="/Login">Login</button>
                 </div>
             </header>
         </>
