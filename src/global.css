@@ -2,6 +2,21 @@ body{
     background-color: #000;
 }
 
+/* Estilos para o scrollbar */
+::-webkit-scrollbar{
+    width: 12px;
+}
+
+::-webkit-scrollbar-track{ /* fundo */
+    background-color: #0000;
+}
+
+::-webkit-scrollbar-thumb{ 
+    border-radius: 35px;
+    background-color: #ffff;
+}
+
+
 /* Reset CSS */
 
 /* Remover margens e preenchimentos padrão */

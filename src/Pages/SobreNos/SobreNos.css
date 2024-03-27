@@ -96,7 +96,7 @@
 
 .text-melhores-produtos button:hover{
     border: 3px solid var(--branco);
-    transition: 0.4s;
+    transition: 0.1s ease;
 }
 
 .melhores-produtos-img{
