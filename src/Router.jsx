@@ -4,11 +4,13 @@ import { Sobre } from "./Pages/SobreNos/SobreNos";
 import { Servicos } from "./Pages/Servicos/Servicos";
 import { Contato } from "./Pages/Contato/Contato";
 import { Login } from "./Pages/Login/Login";
+import { Header } from "./Componentes/Header/header";
 
 const Router = () => {
     return (
         /* definindo rotas */
         <BrowserRouter>
+                <Header />
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/Servicos" element={<Servicos />} />
