@@ -21,7 +21,7 @@ git clone https://github.com/JenniGabriely01/foodyReact.git
 
 Abra o terminal e inicialize a API
 ```
-json-server --watch db.json port 3000
+npx json-server --watch db.json port 3000
 ```
 
 No outro terminal e inicialize o projeto 
