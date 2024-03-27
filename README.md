@@ -18,13 +18,18 @@ No terminal, clone o projeto:
 ```
 git clone https://github.com/JenniGabriely01/foodyReact.git
 ```
+No terminal, baixe o node_modules
+
+```
+npm install
+```
 
 Abra o terminal e inicialize a API
 ```
 npx json-server --watch db.json port 3000
 ```
 
-No outro terminal e inicialize o projeto 
+Abra outro terminal e inicialize o projeto e abra a localhost
 ```
 npm run dev
 ```
