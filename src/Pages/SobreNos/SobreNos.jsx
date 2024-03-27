@@ -42,6 +42,25 @@ export function Sobre() {
                     <img src="/public/imagens/img-melhoresProd.svg" alt="" />
                 </div>
 
+                <div className='img-info'>
+                    <img src="/public/imagens/Quote - IMG.svg" alt="" />
+                </div>
+
+                <div className='position-info'>
+                    <h2>O que falam sobre nós?</h2>
+
+                    <div className='text-info'>
+                        <p>
+                            Visitei o restaurante recentemente e fiquei impressionado com a qualidade da comida e o serviço
+                            excepcional. Cada prato que provei estava delicioso, e a apresentação era impecável. A equipe foi
+                            muito atenciosa e prestativa, garantindo uma experiência gastronômica memorável. Com certeza,
+                            voltarei em breve e recomendo a todos os amantes da boa comida.
+                        </p>
+                    </div>
+                    
+                    <button className='reviews-btn'>Ver mais avaliações</button>
+                </div>
+
             </section>
         </>
     )

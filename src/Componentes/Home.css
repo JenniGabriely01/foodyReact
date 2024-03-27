@@ -34,8 +34,8 @@ body{
 }
 
 .textos-home button:hover{
-    border: 3px solid var(--branco); 
-    transition: 0.4s;
+    border: 3px solid white;
+    transition: 0.1s ease;
 }
 
 .img-banner img{
@@ -104,6 +104,6 @@ main{
 }
 
 .text-cardapio button:hover{
-    border: 3px solid var(--branco);
-    transition: 0.4s;
+    border: 3px solid white;
+    transition: 0.1s ease;
 }

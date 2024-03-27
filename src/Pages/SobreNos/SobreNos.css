@@ -1,18 +1,18 @@
-:root{
+:root {
     --branco: #fff;
 }
 
-.centralizando{
+.centralizando {
     text-align: center;
 }
 
-.conteudo{
+.conteudo {
     width: 1440px;
     margin: 40px auto;
     max-width: 90%;
 }
 
-.conteudo h2{
+.conteudo h2 {
     color: var(--branco);
     font-family: "Meow Script", cursive;
     font-size: 4vw;
@@ -21,11 +21,11 @@
     left: 50%;
 }
 
-.imgPrincipal{
+.imgPrincipal {
     margin-right: 40%;
 }
 
-.texto-conteudo{
+.texto-conteudo {
     position: absolute;
     top: 50%;
     left: 39%;
@@ -35,14 +35,14 @@
     border-radius: 5px;
 }
 
-.texto-conteudo h3{
+.texto-conteudo h3 {
     font-size: 1.9vw;
     font-weight: 800;
     font-family: "DM Serif Text", serif;
     margin-bottom: 27px;
 }
 
-.texto-conteudo p{
+.texto-conteudo p {
     font-family: "Inter", sans-serif;
     font-weight: 400;
     line-height: 23px;
@@ -50,22 +50,23 @@
     text-align: left;
 }
 
-.planta-enfeite{
+.planta-enfeite {
     position: absolute;
     top: 85%;
     left: 65%;
 }
 
-.melhores-produtos{
+.melhores-produtos {
     color: var(--branco);
     text-align: center;
     width: 1440px;
     margin: 40px auto;
     max-width: 90%;
     padding: 60px 0;
+    height: 80vw;
 }
 
-.text-melhores-produtos{
+.text-melhores-produtos {
     width: 50%;
     margin: 0 auto;
     position: absolute;
@@ -73,32 +74,78 @@
     right: 0;
 }
 
-.text-melhores-produtos h2{
+.text-melhores-produtos h2 {
     font-weight: 800;
     font-family: "DM Serif Text", serif;
     font-size: 2.5vw;
     margin-bottom: 15px;
 }
 
-.text-melhores-produtos p{
+.text-melhores-produtos p {
     font-size: 1.2vw;
     font-weight: 100;
     margin-bottom: 16px;
     font-family: "Inter", sans-serif;
 }
 
-.text-melhores-produtos button{
+.text-melhores-produtos button {
     background: transparent;
     border: 1px solid #fff;
     padding: 6px 12px;
     font-size: 1.3vw;
 }
 
-.text-melhores-produtos button:hover{
+.text-melhores-produtos button:hover {
     border: 3px solid var(--branco);
     transition: 0.4s;
 }
 
-.melhores-produtos-img{
+.melhores-produtos-img {
     margin-top: 90px;
+}
+
+.img-info {
+    margin: 15% 50% 0 0;
+}
+
+.position-info {
+    position: absolute;
+    text-align: center;
+    margin: 40px auto;
+    max-width: 90%;
+    padding: 60px 0;
+    top: 255%;
+}
+
+.position-info h2{
+    font-size: 3vw;
+    margin-bottom: 2vw;
+    font-family: "DM Serif Text", sans-serif;
+}
+
+.text-info {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.text-info p{
+    font-size: 1.2vw;
+    font-weight: lighter;
+    font-family: "Inter", sans-serif;
+    line-height: 23px;
+}
+
+.reviews-btn {
+    margin-top: 2vw;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: "Inter", sans-serif;
+    font-size: 1.1vw;
+    border-radius: 0;
+    border: 1px solid white;
+    padding: 1.2vw 2vw;
+}
+
+.reviews-btn:hover {
+    border: 3px solid white;
+    transition: 0.1s ease;
 }
