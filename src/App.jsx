@@ -7,7 +7,6 @@ export function App() {
     return (
         <>
         {/* aqui inicia os componentes(tudo que vai repitir em todas as paginas) */}
-            <Header />
                 <Router />
             <Footer />
 

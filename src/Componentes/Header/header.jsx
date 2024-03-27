@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 import './Header.css'
 
 export function Header() {
@@ -14,27 +14,27 @@ export function Header() {
 
                     <ul>
                         <li>
-                            <a href="/">Home</a>
+                            <Link to="/">Home</Link>
                         </li>
                     </ul>
 
                     <ul>
                         <li>
-                            <a href="/Servicos">Servicos</a>
+                            <Link to="/Servicos">Servicos</Link>
                         </li>
                     </ul>
 
                     <ul>
                         <li>
-                            <a href="/Contato">Contato</a>
+                            <Link to="/Contato">Contatos</Link>
                         </li>
                     </ul>
 
                     <ul>
                         <li>
-                            <a href="/SobreNos">Sobre nós</a>
+                            <Link to="/SobreNos">Sobre Nós</Link>
                         </li>
-                    </ul>
+                    </ul> 
 
                 </div>
 
@@ -42,7 +42,9 @@ export function Header() {
                 <div className="icones-esquerda">
                     <img src="./icones/pesq.svg" alt="icone Pesquisa" />
                     <img src="./icones/icone-notificacao.svg" alt="icone Pesquisa" />
+                    <a href="/Login"> 
                     <button href="/Login">Login</button>
+                    </a>
                 </div>
             </header>
         </>
