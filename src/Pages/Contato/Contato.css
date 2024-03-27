@@ -4,9 +4,15 @@
 
 .Conteudo-Contato{
     width: 1440px;
-    margin: 20px auto;
+    margin: 50px auto;
     max-width: 90%;
     color: var(--branco);
+}
+
+.Conteudo-Contato h2{
+    font-size: 2.7vw;
+    margin: 100px 0 55px 0;
+    font-family: "DM Serif Text", serif;
 }
 
 .lojas{
@@ -14,14 +20,36 @@
     text-align: left;
 }
 
-.conteudoLoja{
+.conteudoLoja {
     border: 1px solid;
     border-radius: 0 33px;
-    padding: 2vw;
+    padding: 2.5vw;
     width: 25%;
     margin-right: 40px;
     display: flex;
     align-items: center;
+    overflow: hidden; 
+    cursor: pointer;
+}
+
+.conteudoLoja img {
+    transition: transform 0.5s; /* Adiciona uma transição suave à transformação */
+}
+
+.conteudoLoja:hover {
+    background-color: #9C3636;
+    border: 0;
+    transition: background-color 0.5s;
+    box-shadow: 0 0 28px #9C3636; 
+}
+
+.conteudoLoja:hover img {
+    transform: scale(1.1); /* Aumenta o tamanho da imagem em 20% quando o mouse passa por cima */
+}
+
+
+.conteudoLoja img:hover{
+    transform: scale(1.15);
 }
 
 .text{
@@ -29,12 +57,44 @@
 }
 
 .text h3{
-    font-size: 1.3vw;
+    font-size: 1.4vw;
     font-family: "DM Serif Text", serif;
     margin-bottom: 4px;
 }
 
 .text p{
     font-family: "DM Serif Text", serif;
-    font-size: 1vw;
+    font-size: 1.3vw;
+}
+
+.faleConosco{
+    color: var(--branco);
+    width: 1440px;
+    margin: 50px auto;
+    max-width: 90%;
+}
+
+.faleConosco h2{
+    font-family: "DM Serif Text", serif;
+    font-size: 2.7vw;
+    margin: 90px 0 37px 0;
+}
+
+.conteudo-fale-conosco{
+    display: flex;
+}
+
+.conteudos{
+    margin-right: 80px;
+}
+
+.conteudos h3{
+    font-family: "DM Serif Text", serif;
+    font-size: 1.5vw;
+    margin-bottom: 10px;
+}
+
+.conteudos p{
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
 }

@@ -1,0 +1,69 @@
+:root{
+    --branco: #fff
+}
+
+.main-login{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.img1{
+    width: 45%;
+}
+
+.img2{
+    width: 30%;
+}
+
+.conteudoLogin{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.conteudoLogin h2{
+    color: var(--branco);
+    font-size: 3.5vw;
+    font-family: "Meow Script", cursive;
+    margin-bottom: 3px;
+}
+
+.conteudoLogin p{
+    color: var(--branco);
+    margin-bottom: 30px;
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+}
+
+.conteudoLogin h3{
+    color: var(--branco);
+    font-family: "Inter", sans-serif;
+    margin-bottom: 13px;
+    font-size: 1.2vw;
+}
+
+.conteudoLogin input{
+    margin-bottom: 20px;
+    border: 1px solid var(--branco);
+    background-color: transparent;
+    padding: 13px;
+    outline: none;
+    font-family: "Inter", sans-serif;
+    font-size: 1vw;
+    font-weight: 300;
+}
+
+.conteudoLogin button{
+    background: transparent;
+    border: 1px solid var(--branco);
+    padding: 10px;
+    font-size: 1.6vw;
+    margin-top: 5px;
+    color: var(--branco);
+}
+
+.conteudoLogin button:hover{
+    border: 3px solid var(--branco); 
+    transition: 0.4s;
+}
