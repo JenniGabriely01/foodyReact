@@ -4,9 +4,29 @@ Projeto de um restauranto, feito uma API com json-server para fazer a requisiç�
 
 <img src="https://img.shields.io/static/v1?label=react&message=framework&color=blue&style=for-the-badge&logo=REACT"/>
 
-![img do Projeto](imagemgProj.png)
+![img do Projeto](imagemProj.png)
 
 Contribuidores 
+ 
+| [<img src="/pss1.jpeg" width=115><br><sub>Jennifer Gabriely</sub>](https://github.com/JenniGabriely01) |  [<img src="pss2.jpeg" width=115><br><sub>Kauã Campos</sub>](https://github.com/KauoKampos) 
+| :---: | :---: 
 
-| [<img src="/pss1.jpeg" width=115><br><sub>Diana Regina</sub>](https://github.com/Diana-ops) |  [<img src="/pss2.jpeg" width=115><br><sub>Diana Regina</sub>](https://github.com/Diana-ops) |  [<img src="https://avatars2.githubusercontent.com/u/46378210?s=400&u=071f7791bb03f8e102d835bdb9c2f0d3d24e8a34&v=4" width=115><br><sub>Diana Regina</sub>](https://github.com/Diana-ops) |
-| :---: | :---: | :---: 
+## Como rodar a aplicação :arrow_forward:
+
+No terminal, clone o projeto: 
+
+```
+git clone https://github.com/JenniGabriely01/foodyReact.git
+```
+
+Abra o terminal e inicialize a API
+```
+json-server --watch db.json port 3000
+```
+
+No outro terminal e inicialize o projeto 
+```
+npm run dev
+```
+
+
