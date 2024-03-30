@@ -12,7 +12,7 @@ export function Header() {
 
     return (
         <>
-            <header className='header'>
+             <header className={`header ${isCurrentRoute('/Servicos') ? 'absolute-header' : ''}`}>
 
                 <div className="logo">
                     <img src="/imagens/Logo.svg" alt="Logo" />

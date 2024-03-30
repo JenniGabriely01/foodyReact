@@ -2,6 +2,19 @@
     --branco: #fff;
 }
 
+
+.header {
+    /* Estilos do cabeçalho padrão */
+    position: relative; /* Garante que outros elementos na página não se sobreponham ao cabeçalho */
+}
+
+.absolute-header {
+    /* Estilos do cabeçalho com position: absolute */
+    position: absolute;
+    left: 5%;
+    right: 5%;    
+}
+
 .header{
     display: flex;
     justify-content: space-between;

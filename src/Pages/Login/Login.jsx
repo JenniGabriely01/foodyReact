@@ -1,6 +1,7 @@
 import './Login.css';
 
 export function Login() {
+    
     return (
         <section>
             <div className="main-login">
@@ -16,7 +17,7 @@ export function Login() {
                     <input type="text" placeholder="Insira aqui..."/>
 
                     <h3>Senha</h3>
-                    <input type="text" placeholder="Insira aqui..."/>
+                    <input type="password" placeholder="Insira aqui..."/>
                     <button>Fazer Login</button>
                 </div>
 
