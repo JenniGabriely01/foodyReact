@@ -26,7 +26,7 @@ export function Servicos() {
                 <div className='left-box'>
                     <h3 className='tittle'>Reservas</h3>
                     <img className='icon' src="/public/icones/Icon-Dinner.svg" alt="" />
-                    <p className='text'>
+                    <p className='text-serv'>
                         Saboreie momentos inesquecíveis em nosso restaurante,
                         onde cada mordida é uma experiência culinária única,
                         em um ambiente acolhedor e encantador.
@@ -36,7 +36,7 @@ export function Servicos() {
                 <div className='middle-box'>
                     <h3 className='tittle'>Buffet</h3>
                     <img className='icon' src="/public/icones/Icon-Buffet.svg" alt="" />
-                    <p className='text'>
+                    <p className='text-serv'>
                         Explore uma variedade de sabores e escolha seus favoritos
                         em nosso buffet irresistível, onde a fartura e a qualidade
                         se encontram para satisfazer todos os gostos e apetites.
@@ -46,7 +46,7 @@ export function Servicos() {
                 <div className='right-box'>
                     <h3 className='tittle'>Delivery</h3>
                     <img className='icon' src="/public/icones/Icon-Delivery.svg" alt="" />
-                    <p className='text'>
+                    <p className='text-serv'>
                         Levamos o sabor até você! Desfrute da conveniência de nossas 
                         deliciosas refeições no conforto do seu lar, com nosso serviço 
                         de entrega rápido e eficiente.

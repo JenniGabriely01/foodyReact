@@ -16,6 +16,11 @@
     width: 30%;
 }
 
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
 .conteudoLogin{
     display: flex;
     flex-direction: column;
@@ -52,18 +57,33 @@
     font-family: "Inter", sans-serif;
     font-size: 1vw;
     font-weight: 300;
+    color: var(--branco);
+}
+
+input::placeholder{
+    color: #d9d9d9;
 }
 
 .conteudoLogin button{
     background: transparent;
     border: 1px solid var(--branco);
     padding: 10px;
-    font-size: 1.6vw;
+    font-size: 1.5vw;
     margin-top: 5px;
     color: var(--branco);
 }
 
 .conteudoLogin button:hover{
     border: 3px solid var(--branco); 
-    transition: 0.4s;
+    transition: 0.1s ease;
+}
+
+.conteudoLogin button:active {
+    transform: translateY(-2px);
+}
+
+.error-message{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2vw;
 }

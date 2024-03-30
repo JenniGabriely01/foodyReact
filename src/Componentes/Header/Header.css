@@ -48,6 +48,11 @@
     font-size: 1.1vw;
 }
 
+.nav a:hover{
+    font-weight: 700;
+    transition: 0.2s ease;
+}
+
 .icones-esquerda img{
     cursor: pointer;
 }
