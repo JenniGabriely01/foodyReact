@@ -108,11 +108,16 @@
     margin: 15% 50% 0 0;
 }
 
+.avaliacoes{
+    margin: 40px auto;
+    max-width: 90%;
+    width: 1440px;
+}
+
 .position-info {
     position: absolute;
     text-align: center;
-    margin: 40px auto;
-    max-width: 90%;
+    color: #fff;
     padding: 60px 0;
     top: 255%;
 }
@@ -120,7 +125,7 @@
 .position-info h2{
     font-size: 3vw;
     margin-bottom: 2vw;
-    font-family: "DM Serif Text", sans-serif;
+    font-family: "DM Serif Text", serif;
 }
 
 .text-info {

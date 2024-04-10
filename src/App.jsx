@@ -6,8 +6,8 @@ import './global.css'
 export function App() {
     return (
         <>
-        {/* aqui inicia os componentes(tudo que vai repitir em todas as paginas) */}
-                <Router />
+            {/* aqui inicia os componentes(tudo que vai repitir em todas as paginas) */}
+            <Router />
             <Footer />
 
         </>

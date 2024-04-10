@@ -45,7 +45,11 @@ export function Sobre() {
                 <div className='img-info'>
                     <img src="/public/imagens/Quote - IMG.svg" alt="" />
                 </div>
+            </section>
 
+
+
+            <section className='avaliacoes'>
                 <div className='position-info'>
                     <h2>O que falam sobre nós?</h2>
 
@@ -57,10 +61,9 @@ export function Sobre() {
                             voltarei em breve e recomendo a todos os amantes da boa comida.
                         </p>
                     </div>
-                    
+
                     <button className='reviews-btn'>Ver mais avaliações</button>
                 </div>
-
             </section>
         </>
     )
