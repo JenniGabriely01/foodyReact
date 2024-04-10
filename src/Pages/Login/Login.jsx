@@ -38,6 +38,7 @@ export function Login() {
 
             // Limpa a mensagem de erro, se houver
             setErrorMessage('');
+            alert("Login feito com sucesso")
 
         } else {
             // Define a mensagem de erro caso algum campo não esteja preenchido
